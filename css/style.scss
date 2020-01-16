@@ -1,0 +1,25 @@
+#house {
+    border : 1px solid green;
+    width : 20%;
+
+    img {
+	width : 100%;
+	height : auto;
+    }
+
+    .energi {
+	border : 1px solid orange;
+	width: 5%;
+	float : right;
+	margin-top : -10%;
+	text-align : center;
+	background : orange;
+    }
+
+    .price {
+	float : right;
+	border : 1px solid blue;
+	width : 20%;
+	margin-top : -5%;
+    }
+}
