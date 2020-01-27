@@ -1,0 +1,54 @@
+.icon {
+  width: 2%; }
+
+#index0 {
+  width: 100%;
+  border: 1px solid yellow;
+  display: flex; }
+  #index0 #index2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid orange;
+    width: 25%; }
+    #index0 #index2 div {
+      width: 50%; }
+    #index0 #index2 div:nth-child(even) {
+      color: red;
+      text-align: right; }
+  #index0 #index3 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    width: 25%; }
+    #index0 #index3 hr {
+      color: orange; }
+    #index0 #index3 div {
+      width: 48%;
+      border: 1px solid red; }
+    #index0 #index3 div:nth-child(odd) {
+      color: blue;
+      text-align: right; }
+    #index0 #index3 div:nth-child(12) {
+      color: green;
+      width: 100%; }
+    #index0 #index3 div:nth-child(13) {
+      width: 100%;
+      text-align: left; }
+    #index0 #index3 div:nth-child(14) {
+      width: 100%;
+      text-align: center; }
+    #index0 #index3 div:nth-child(15) {
+      width: 100%;
+      text-align: center; }
+  #index0 #index4 {
+    display: flex;
+    flex-wrap: wrap; }
+    #index0 #index4 div:nth-child(1) {
+      width: 100%; }
+    #index0 #index4 hr {
+      width: 100%; }
+    #index0 #index4 img {
+      width: 20%;
+      padding: 4%; }
+
+/*# sourceMappingURL=style2.css.map */

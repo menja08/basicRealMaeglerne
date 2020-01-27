@@ -17,4 +17,42 @@
     width: 20%;
     margin-top: -5%; }
 
+#house2 {
+  border: 1px solid red;
+  width: 20%;
+  margin-top: 10px;
+    /*div:first-child {
+	width : 70%;
+    }*/
+    /*div:nth-child(2) {
+	width : 30%;
+    }*/ }
+  #house2 img {
+    width: 100%;
+    height: auto; }
+  #house2 div {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap; }
+    #house2 div div:nth-child(1) {
+      width: 70%; }
+    #house2 div div:nth-child(2) {
+      width: 25%;
+      padding-left: 2%; }
+    #house2 div div:nth-child(3) {
+      width: 20%; }
+    #house2 div div:nth-child(4) {
+      width: 70%; }
+    #house2 div div:nth-child(5) {
+      width: 100%; }
+    #house2 div hr {
+      width: 100%; }
+    #house2 div div:nth-child(9) {
+      width: 50%;
+      color: green;
+      margin-right: 0%;
+      padding-left: 10%; }
+    #house2 div div {
+      border: 1px solid yellow; }
+
 /*# sourceMappingURL=style.css.map */
