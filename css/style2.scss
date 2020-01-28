@@ -1,12 +1,42 @@
 body {
     //display : flex;
+    /*div:first-child {
+	border : 1px solid green;
+	background : lightgreen;
+    }*/
+    
+}
+
+#imageSlider {
+    display : flex;
+    //flex-wrap : no-wrap;
+    //flex-direction : row;
+    border : 1px solid green;
+    background : lightgreen;
 }
 
 .icon {
-    width : 2%;
+    width : 100%;
 }
 
-#house {    
+#backArrow {
+    width : 5%;
+    border : 1px solid blue;
+}
+
+#nextArrow {
+    width : 5%;
+    border : 1px solid blue;
+}
+
+#house {
+    width : 90%;
+    border : 1px solid red;
+
+    img {
+	width : 100%;
+	height : auto;
+    }
 }
 
 #index0 {

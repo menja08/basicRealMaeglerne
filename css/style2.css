@@ -1,5 +1,31 @@
+body {
+    /*div:first-child {
+	border : 1px solid green;
+	background : lightgreen;
+    }*/ }
+
+#imageSlider {
+  display: flex;
+  border: 1px solid green;
+  background: lightgreen; }
+
 .icon {
-  width: 2%; }
+  width: 100%; }
+
+#backArrow {
+  width: 5%;
+  border: 1px solid blue; }
+
+#nextArrow {
+  width: 5%;
+  border: 1px solid blue; }
+
+#house {
+  width: 90%;
+  border: 1px solid red; }
+  #house img {
+    width: 100%;
+    height: auto; }
 
 #index0 {
   width: 100%;
