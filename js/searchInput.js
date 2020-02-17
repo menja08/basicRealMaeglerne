@@ -2,6 +2,13 @@
 
 exports.isPostNumber = function (postNumber) {
 
+    // regex test
+    var myRegex = (/^[0-9][0-9][0-9][0-9]$/).test(postNumber);
+    console.log("myRegex = " + myRegex);
+
+    // convert to int
+    var postNumber = Number.parseInt(postNumber);
+
     // isInteger
     var isNumber = Number.isInteger(postNumber);
     console.log("isNumber = " + isNumber);
